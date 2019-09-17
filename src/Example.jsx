@@ -16,7 +16,7 @@ class Example extends React.PureComponent {
   }
 }
 
-Page.propTypes = {
+Example.propTypes = {
   greeting: PropTypes.string,
 };
 
