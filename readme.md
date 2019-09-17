@@ -1,16 +1,4 @@
-## A Window to the Stars
-#### An LSST Formal Investigation
-
-> This investigation explores properties of stars through images, interactive graphs, and QA sections.
-
->##### Essential Questions
->- How can an H-R Diagram be used to estimate the ranges of star properties (temperatures, sizes, masses, lifetimes, and energy outputs)?
->- What are the properties of the most common star type observed in our galaxy?
->- Is the Sun an average star? Is it the most common kind of star?
-
-
-Check out [Production](https://lsst-epo.github.io/a-window-to-the-stars).
-Check out [Staging](https://a-window-to-the-stars.netlify.com/#/).
+## Investigation Starter
 
 Dev envirnoment inspired by [homegrown Webpack-React starter project](https://github.com/lsst-epo/webpack-react-boilerplate).
 
@@ -37,8 +25,8 @@ src/
 |- App.jsx _________________________________ # application init
 |  |- components/___________________________ # react components
 |  |- assets/
-|    |- images/_____________________________ # currently webpack DOES NOT pass these files thru (must be included through js)
-|    |- static-data/_________________________# currently webpack DOES NOT pass these files thru (must be included through js)
+|    |- images/_____________________________ # see SiteHeader for image incorporation in .jsx file
+|    |- static-data/_________________________# see Questions.jsx for HTTP Request for data example
 |    |- stylesheets/
 |       |- STACSS/ _________________________ # global Structure, Typography, and Appearance styles
 |       |- components/ _____________________ # should generally correspond to React Compoents
@@ -46,7 +34,7 @@ src/
 
 ### Installation
 
-1- Clone the repo: `git clone https://github.com/lsst-epo/a-window-to-the-stars.git`
+1- Clone the repo: `git clone https://github.com/lsst-epo/empty-investigation.git`
 
 2- Install npm packages: `yarn`
 
